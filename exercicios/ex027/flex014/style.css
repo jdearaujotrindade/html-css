@@ -17,6 +17,17 @@ header.normal, section.normal {
     padding: 20px;
 }
 section.flex-content {
+    display: flex;
+    flex-flow: column nowrap;
     background-color: lightgray;
     padding: 20px;
+}
+section > article {
+    border: 2px dotted black;
+}
+article.media-text {
+    display: flex;
+}
+article.text-media {
+    display: flex;
 }
